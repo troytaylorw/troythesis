@@ -197,6 +197,14 @@
   align-items: center;
 }
 
+.container-3.bye {
+  height: 100vh;
+}
+
+.container-3.hi {
+  height: 100vh;
+}
+
 .section-2 {
   height: auto;
 }
@@ -320,6 +328,11 @@
 
 .div-block-6 {
   height: auto;
+}
+
+.div-block-6.sky {
+  margin-top: 60px;
+  margin-bottom: 0px;
 }
 
 .link-block-2 {
@@ -451,6 +464,10 @@
   margin-left: 0px;
   font-family: 'Times extended', 'Times New Roman', sans-serif;
   color: #fff;
+}
+
+.container-8 {
+  text-align: center;
 }
 
 @media screen and (max-width: 479px) {
