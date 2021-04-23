@@ -226,10 +226,14 @@
 
 .html-embed-3.window {
   margin-bottom: 0px;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
 }
 
 .html-embed-3.evergiven {
   margin-bottom: 0px;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
 }
 
 .grid-7 {
@@ -482,6 +486,46 @@
 .screenie {
   width: 100%;
   max-width: none;
+}
+
+.navbar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  height: 10px;
+  margin-top: -10px;
+  background-color: transparent;
+}
+
+.dropdown-toggle {
+  margin-top: -20px;
+  padding: 0px 0px 15px 15px;
+}
+
+.image-23 {
+  width: 100px;
+  height: 100px;
+  max-width: none;
+}
+
+.dropdown-list {
+  background-color: transparent;
+}
+
+.dropdown-link {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-family: 'Times extended', 'Times New Roman', sans-serif;
+  color: #fff;
+}
+
+.dropdown-link:hover {
+  font-style: italic;
+}
+
+.dropdown-link.w--current {
+  color: #fff;
+  text-decoration: underline;
 }
 
 @media screen and (max-width: 479px) {
